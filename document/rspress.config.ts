@@ -5,7 +5,7 @@ export default defineConfig({
   root: path.join(__dirname, 'docs'),
   title: 'My Site',
   icon: '/rspress-icon.png',
-  base: '/mds-cursor/',
+  base: '/common-format/',
   outDir: 'dist', // 改用其他目录名称
   route: {
     exclude: ['custom.tsx', 'components/**/*'],

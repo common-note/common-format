@@ -1,6 +1,6 @@
 {
   "name": "common-format",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "type": "module",
   "exports": {
     ".": {
@@ -30,10 +30,14 @@
     "@types/node": "^22.8.1",
     "eslint": "^9.16.0",
     "globals": "^15.12.0",
+    "jsdom": "^26.0.0",
     "prettier": "^3.4.1",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.16.0",
     "vitest": "^3.0.1"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "common-cursor": "link:../common-cursor"
+  }
 }

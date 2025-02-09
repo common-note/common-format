@@ -3,7 +3,7 @@
 ## Start
 
 import { version, buildTime } from "./version.json"
-
+import { EditableManually } from "../components/playboard";
 
 Write something to build your own docs! 🎁
 
@@ -11,3 +11,18 @@ Write something to build your own docs! 🎁
     <p>Version: {version}</p>
     <p>BuildTime: {buildTime}</p>
 </div>
+
+<EditableManually 
+  initialContent="在 <i>这里</i> 开始 编辑..." 
+  stride="char"
+/>../components/playboard
+
+<EditableManually 
+  initialContent="在 <i>这里</i> 开始 <b>编</b>辑..." 
+  stride="char"
+/>../components/playboard
+
+<EditableManually 
+  initialContent="在 <b><i>这里</i> 开始 编</b>辑..." 
+  stride="char"
+/>../components/playboard

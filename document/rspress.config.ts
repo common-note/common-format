@@ -23,4 +23,5 @@ export default defineConfig({
       },
     ],
   },
+  globalStyles: path.join(__dirname, 'styles/custom.css'),
 });
